@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+  }
+  #wrap
+  {
+    display: flex;
+    flex-direction: column;
+    width:90%;    
+    margin-top: 1%;
+    margin-left: 10%;
+    
+  }
+  #header-div
+  {
+    display: flex;
+    flex-direction: row;    
+    width: 100%;   
+    max-height: 30px;
+    margin-bottom: 1%;
+     }
+    #logo-div{
+        margin-left: 1%;
+        margin-top: 1.5%;
+    }
+    
+ul
+{   display: flex;
+    flex-direction: row;
+}
+
+.headlink
+{   justify-content: space-around;
+    padding-left: 6%; 
+    padding-top: 2%;   
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 30%;
+}
+#profilepix-cart
+{
+display: flex;
+flex-direction: row;
+margin-left: 60%;
+
+}
+.cart-img{
+    max-height: 90%;
+    margin-top: 0.5%; 
+    margin-right: 15%;  
+}
+
+hr{
+    width: 920px
+}
+#Main-body
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 3%;    
+}
+#shoe-display
+{   display: flex;
+    flex-direction: column;
+    flex-basis: 50%;    
+}
+#main-shoe-display
+{   display: flex;
+    flex-direction: column;
+    width: 65%;
+    border-radius: 5px;
+    min-height: 300px;
+    margin-left: 12%;    
+    }
+ .shoe1{
+        width: 98%;
+        height: 95%;
+        border-radius: 4px;
+    }
+#text-area
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+#other-show-display
+{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    min-height: 50px;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+.small-display
+{    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 5%;
+}
+.small-display:hover
+  {
+    background-color: #7a4bc7;
+    border: 1px solid white;
+    transition: .5s;
+  }
+  #company-name{
+    width: 40%;
+    min-height: 25px;
+    margin-top: 5%;
+    color: hsl(26, 100%, 55%);
+  }
+#head-text
+{    width: 90%;
+    min-height: 50px;
+    margin-top: 1%;
+    font-size: 18px;
+}
+#body-text
+{    width: 100%;
+    min-height: 90px;
+    margin-top: 3%;
+    line-height: 25px;
+    font-size:medium ;
+}
+#pricing-div
+{    display: flex;
+    flex-direction: row;
+    width: 35%;
+    min-height: 20px;
+    margin-top: 1%;
+}
+#main-price{
+    font-size:x-large;
+}
+#percentage-discount
+{    flex-basis: 22%;
+    background-color: hsl(26, 85%, 69%);
+    color: hsl(26, 100%, 55%);
+    border-radius: 4px;
+    margin-left: 5%;
+    padding: 4px;
+}
+#old-price
+{    color: grey;
+    margin-top: 1%;
+}
+#selectamount-addcart
+{    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 55px;
+    margin-top: 2%;
+}
+#select-amount
+{   display: flex;
+    flex-direction: row;
+    flex-basis: 35%;
+    background-color: rgb(203, 199, 199);
+    border-radius: 4px;
+    padding: 2%;
+}
+button
+{   display: flex;
+    flex-direction: row;
+    flex-basis: 45%;
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 4px;
+    margin-left: 10px;
+    padding: 3%;
+    padding-left: 10%;
+    border: 0px;
+}
+#add-to-cart
+{
+    margin-left: 10%;
+    color: white;
+}
+
+#minus{
+    color: hsl(26, 100%, 55%);
+    font-size:x-large;
+}
+#amt-select{
+    font-size:larger;
+    margin-left: 30%;
+}
+#plus
+{   color: hsl(26, 100%, 55%);
+    font-size:x-large;
+    margin-left: 30%;
+}
+input
+{
+    width: 100%;
+    border: 0px;
+    background-color:rgb(203, 199, 199);
+    margin-left: 30%;
+}
+@media screen and (min-width:200px) and (max-width: 600px){
+#Main-body
+{   display: flex;
+    flex-direction: column;
+    width: 100%;
+}    
+#row{
+    width: 100%;
+}
+#other-show-display{
+    display: none;
+}
+.headlink{
+    display: none;
+}
+hr{
+    display: none;
+}
+.cart-img{
+    max-height: 90%;
+    margin-top: 0.5%; 
+    margin-left: 75%; 
+    margin-right: 3%;  
+}
+#main-shoe-display
+{   display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 5px;
+       
+    }
+ .shoe1{
+        width: 100%;
+        height: 100%;
+        border-radius: 4px;
+    }
+}
