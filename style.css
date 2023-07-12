@@ -10,8 +10,7 @@
     flex-direction: column;
     width:90%;    
     margin-top: 1%;
-    margin-left: 10%;
-    
+    margin-left: 10%;    
   }
   #header-div
   {
@@ -33,8 +32,8 @@ ul
 
 .headlink
 {   justify-content: space-around;
-    padding-left: 6%; 
-    padding-top: 2%;   
+    padding-left: 25px; 
+    padding-top: 2px;   
 }
 a{
     text-decoration: none;
@@ -45,7 +44,7 @@ a{
 {
 display: flex;
 flex-direction: row;
-margin-left: 60%;
+margin-left: 10px;
 
 }
 .cart-img{
