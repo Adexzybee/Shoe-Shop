@@ -197,40 +197,18 @@ input
     flex-direction: column;
     width: 100%;
 }    
-#row{
-    width: 100%;
-}
-#other-show-display{
+#other-show-display
+{
     display: none;
 }
 .headlink{
     display: none;
 }
-br
-{
-    display: none;
-}
-#logo-div
-{
-    margin-left: 1rem;
-}
-
-.cart-img{
-    margin-top: 1%; 
-}
-#main-shoe-display
-{   display: flex;
-    flex-direction: column;
-    width: 100%;
-    border-radius: 5px;
-       
-    }
 .menu
 {
-    display: initial;
-    padding-right: 1.5rem;
+    display: initial;    
 }
- .shoe1{
+.shoe1{
         width: 100%;
         height: 100%;
         border-radius: 0px;
@@ -239,54 +217,45 @@ br
     border-bottom: 0px;
     margin-top: 1rem;
     justify-content: space-around;
+    padding:0; 
     }
     #wrap{
-        display: flex;
-        flex-direction: column;
-        width:100%;          
+         width:100%;          
     }
     #main-shoe-display
-{   display: flex;
-    flex-direction: column;
+{   
     width: 100%;
     border-radius: 0px;
-    min-height: 200px;
     margin: 0;
     }
     #company-name{
-        width: 80%;
-        min-height: 25px;
-        margin-top: 5%;
-        color: hsl(26, 100%, 55%);    
+        width: 80%;       
     }
     #text-area
     {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 50%;
-        margin-left: 1rem;
-    }
-    #header-div{        
-        padding:0;        
+     margin-left: 1rem;
     }
     #price-container
     {
         display: flex;
         flex-direction: row;
         gap: 10rem;
+        
     }
    #selectamount-addcart
    {
     display: flex;
     flex-direction: column;
-    margin-top: 2rem;
     margin-left: 0;
     }
     #select-amount
     {
-        margin-bottom: 2rem;
-        margin-top: 2rem;
+        margin-bottom: 1rem;        
         width: 90%;
+    }
+    #amt-select
+    {
+        margin-left: 10rem;
     }
     #add-cart
     {
