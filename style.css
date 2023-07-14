@@ -269,5 +269,9 @@ input
     {
         margin-left: 5rem;
     }
+    br
+    {
+        display: none;
+    }
         
 }
