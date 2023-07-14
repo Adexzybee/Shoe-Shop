@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Buy Sneakers</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
     <div id="wrap">
-        <div id="header-div">
+        <header id="header-div">            
             <div id="logo-div">
+                <img class="menu" src="bars-solid.svg" height="15" alt="menu"/>
                 <img class="image logo" src="logo.svg " alt="logo"/>
-                </div>
+            </div>
             <ul>
                 <li class="headlink collection">
                 <a href="https://adexzybee.github.io/Registration-Form/" target="_blank">Collections</a>
@@ -31,11 +32,11 @@
                 </li>              
             </ul> 
             <div id="profilepix-cart">
-                <img class="cart-img" src="cart-shopping-solid.svg" alt="cart"/>
-                <img class="profilepix-image" src="Profile_picture.jpg" alt="profilepix"/> 
+                <img class="cart-img" src="cart-shopping-solid.svg" height="24" alt="cart"/>
+                <img class="profilepix-image" src="Profile_picture.jpg" width="24" alt="profilepix"/> 
             </div> 
-        </div>    
-        <hr>
+        </header>    
+        
         <div id="Main-body">
             <div id="shoe-display">
                 <div id="main-shoe-display">
@@ -65,17 +66,19 @@
                         withstand everything the weather can offer.
                     </p>
                 </div>
-                <div id="pricing-div">
-                    <div id="main-price">
+                <div id="price-container">
+                  <div id="pricing-div">
+                     <div id="main-price">
                         <b>$125.00</b>
-                    </div>
-                    <div id="percentage-discount">
+                     </div>
+                     <div id="percentage-discount">
                         50%
-                    </div>
-                </div>
-                <div id="old-price">
-                    <s>$250.00</s>
-                </div>
+                     </div>
+                  </div>
+                  <div id="old-price">
+                      <s>$250.00</s>
+                  </div>
+              </div>
                 <form id="selectamount-addcart">
                     <div id="select-amount">
                         <div id="minus">-</div>
