@@ -55,19 +55,18 @@ hr{
 #shoe-display
 {   display: flex;
     flex-direction: column;
-    flex-basis: 50%;    
+    flex-basis: 50%; 
+    gap: 1rem; 
 }
 #main-shoe-display
 {   display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 70%;
     border-radius: 5px;
-    min-height: 300px;
     margin-left: 12%;    
     }
  .shoe1{
         width: 98%;
-        height: 95%;
         border-radius: 4px;
     }
 #text-area
@@ -81,10 +80,9 @@ hr{
 {
     display: flex;
     flex-direction: row;
-    width: 65%;
+    width: 70%;
     min-height: 50px;
     margin-left: 12%;
-    margin-top: 5%;
 }
 .small-display
 {    display: flex;
@@ -150,7 +148,7 @@ hr{
 #select-amount
 {   display: flex;
     flex-direction: row;
-    flex-basis: 30%;
+    flex-basis: 50%;
     background-color: rgb(203, 199, 199);
     border-radius: 4px;
     justify-content: center;
@@ -161,15 +159,17 @@ hr{
 button
 {   display: flex;
     flex-direction: row;
-    flex-basis: 30%;
+    flex-basis: 50%;
     background-color: hsl(26, 100%, 55%);
     border-radius: 4px;
     border: 0px;
     align-items: center;
+    size: 4px;
 }
 #add-cart
 {
   color: white;
+  flex-basis: 50%;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -189,12 +189,24 @@ input
     width: 10%;
     border: 0px;
     background-color: rgb(203, 199, 199);
-    outline: none;    
-    margin-left: .8rem;
-    
+    outline: none;
 
 }
-@media screen and (min-width:200px) and (max-width: 600px){
+@media (max-width: 1024px) {
+    #Main-body{
+        gap: 3rem;
+    }
+    #main-shoe-display{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #other-show-display{
+        width: 100%;
+        margin-left: 0px;
+    }
+
+}
+@media (max-width: 640px){
 #Main-body
 {   display: flex;
     flex-direction: column;
