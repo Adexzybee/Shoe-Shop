@@ -253,9 +253,15 @@ input
     display: flex;
     width: 90%;
     flex-direction: column;
+    
     }
     #add-cart{
         justify-content: center;
+        align-items: center;
+    }
+    #select-amount
+    {
+        min-height: 55px;
     }
     br
     {
