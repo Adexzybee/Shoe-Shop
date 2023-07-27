@@ -165,14 +165,14 @@ button
     background-color: hsl(26, 100%, 55%);
     border-radius: 4px;
     border: 0px;
-    padding: 1rem;
+    align-items: center;
 }
 #add-cart
 {
   color: white;
-  padding: auto;
   justify-content: center;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 #minus{
@@ -190,7 +190,7 @@ input
     border: 0px;
     background-color: rgb(203, 199, 199);
     outline: none;    
-    margin-left: 1rem;
+    margin-left: .8rem;
     
 
 }
@@ -258,6 +258,7 @@ input
     #add-cart{
         justify-content: center;
         align-items: center;
+        min-height: 55px;
     }
     #select-amount
     {
